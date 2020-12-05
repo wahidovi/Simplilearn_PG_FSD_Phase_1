@@ -1,0 +1,76 @@
+package com.lockedme;
+
+
+import java.util.Scanner;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class Find {
+public static void searchFor(String source, String toBeSearched) {
+		
+		
+		
+		if(isContain(source,toBeSearched) ) {
+			
+			System.out.println("("+source+") File Found");
+			
+		
+		}
+				
+	}
+
+public static boolean found(String source, String toBeSearched) {
+	
+	
+	boolean fileFound = false;
+	
+	if(isContain(source,toBeSearched) ) {
+		
+		
+		
+		fileFound = true;
+	
+	}
+	return fileFound;
+			
+}
+	private static boolean isContain(String source, String subItem){
+        String pattern = "\\b"+subItem+"\\b";
+        Pattern p=Pattern.compile(pattern);
+        Matcher m=p.matcher(source);
+        return m.find();
+   }
+	
+	public static String getFiletoBeSerched() {
+		
+		boolean userInput = false;
+		   
+		String fileName = null;
+	 
+
+			do {
+				InputValidator.keyboardInput = new Scanner(System.in);
+					System.out.println("\nEnter File Name : ");
+					fileName = InputValidator.keyboardInput.nextLine();
+					if(!InputValidator.isValidFilename(fileName)) {
+						System.out.println("Invalid File Name. Start file name with AlphaNumeric");
+					}
+					
+					
+					userInput = InputValidator.isValidFilename(fileName);
+						
+				 
+				
+			}while(!userInput); 
+			
+	  
+			
+			
+			fileName=InputValidator.handleFileExtension(fileName); 
+
+		return fileName;
+		
+	}
+
+
+}
