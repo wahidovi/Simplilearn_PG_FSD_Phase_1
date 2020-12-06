@@ -960,3 +960,22 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact antlr:antlr:j
 2020-12-05 03:54:56,580 [Worker-26: Launching lockedme-app-demo] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean package
 2020-12-05 03:57:28,306 [Worker-27: Launching lockedme-app-demo] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Wahid\eclipse-workspace\lockedme-app-demo
 2020-12-05 03:57:28,306 [Worker-27: Launching lockedme-app-demo] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean package
+2020-12-06 12:42:05,411 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-12-06 12:42:07,468 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-06 12:42:07,476 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\eclipse-workspace\lockedme-app-demo\src\main\resources
+2020-12-06 12:42:07,479 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-06 12:42:07,487 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\eclipse-workspace\lockedme-app-demo\src\test\resources
+2020-12-06 12:42:14,818 [Worker-9: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.lockedme:lockedme-app-demo:0.0.1-SNAPSHOT @ F:\eclipse-workspace\lockedme-app-demo\pom.xml.
+2020-12-06 12:42:15,509 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-06 12:42:15,518 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\eclipse-workspace\lockedme-app-demo\src\main\resources
+2020-12-06 12:42:15,520 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-06 12:42:15,528 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\eclipse-workspace\lockedme-app-demo\src\test\resources
+2020-12-06 12:42:17,282 [Worker-20: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.lockedme:lockedme-app-demo:0.0.1-SNAPSHOT @ F:\eclipse-workspace\lockedme-app-demo\pom.xml.
+2020-12-06 12:42:17,915 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-06 12:42:17,931 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\eclipse-workspace\lockedme-app-demo\src\main\resources
+2020-12-06 12:42:17,935 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-06 12:42:17,944 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\eclipse-workspace\lockedme-app-demo\src\test\resources
+2020-12-06 12:42:42,088 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-06 12:42:42,098 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\eclipse-workspace\lockedme-app-demo\src\main\resources
+2020-12-06 12:42:42,100 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-06 12:42:42,110 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\eclipse-workspace\lockedme-app-demo\src\test\resources
