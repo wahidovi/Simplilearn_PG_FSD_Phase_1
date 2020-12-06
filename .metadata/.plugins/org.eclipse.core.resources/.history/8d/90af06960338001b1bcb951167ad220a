@@ -31,7 +31,7 @@ static Scanner keyboardInput = new Scanner(System.in);
 		   
 		    
 		    while (!keyboardInput.hasNextShort()) {
-		        System.out.println("That's not a number! Please Choose from the option Above (app is running) - ");
+		        System.out.println("That's not a number!");
 		        	
 		        keyboardInput.next(); // this is important! for string input// clear stream 
 		        
